@@ -5,10 +5,21 @@ $border-color : grey;
     width:auto;
     height:40px;
 }
+
 #logo_bit{
     width:16px;
     height:16px;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    -o-filter: grayscale(1);
 }
+
+.invert{
+    
+}
+
 .menu{
     width: 100%;
     display: flex;
@@ -16,6 +27,7 @@ $border-color : grey;
     border-bottom : solid 0.5px $border-color;
     border-radius: 1px;
     box-shadow: 2px 2px 10px $border-color;
+    flex-direction:column;
 }
 
 .logo{
@@ -25,15 +37,19 @@ $border-color : grey;
 
 .reseau{
     display: inline-flex;
+    // flex-direction:column;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .menu h1{
-   justify-content: flex-start;
-   align-items: flex-start;
+//    justify-content: flex-start;
+//    align-items: flex-start;
+   flex-direction:column;
 }
 
-.menu{
-    justify-content: flex-start;
-    align-items: flex-start;
+.menu .text{
+    
+    align-self: flex-start;
 }
+
