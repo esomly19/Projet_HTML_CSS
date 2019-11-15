@@ -1,5 +1,5 @@
 $border-color : grey;
-
+$textcolor:orange;
 
 #logo_site{
     width:auto;
@@ -36,4 +36,23 @@ $border-color : grey;
 .menu{
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.navbar{
+color: $textcolor;
+}
+h2{
+    color: $textcolor;
+}
+article{
+    box-shadow: 8px 8px 12px #aaa;
+    width:100%;
+
+}
+.container{
+justify-content: space-around;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(100px, auto);
 }
