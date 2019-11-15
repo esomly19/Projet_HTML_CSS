@@ -21,6 +21,8 @@
   border-radius: 1px;
   box-shadow: 2px 2px 10px grey;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .logo {
