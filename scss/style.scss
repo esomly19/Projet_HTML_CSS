@@ -1,4 +1,4 @@
-$border-color : grey;
+$border-color : #aaa;
 $textcolor:orange;
 
 #logo_site{
@@ -22,7 +22,7 @@ $textcolor:orange;
     border-right : solid 0.5px $border-color;
     border-bottom : solid 0.5px $border-color;
     border-radius: 1px;
-    box-shadow: 2px 2px 10px $border-color;
+    box-shadow: 8px 8px 12px #aaa;
     flex-direction:column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -47,17 +47,31 @@ $textcolor:orange;
     align-self: flex-start;
 }
 
+.navbar ul{
+    list-style: none;
+}
+
+.navbar li{
+    margin-top: 0.5em;
+}
+
 .navbar{
     color: $textcolor;
 }
 
-h2{
+h3{
     color: $textcolor;
 }
 
 article{
     box-shadow: 8px 8px 12px #aaa;
+    border-radius: 1px;
     width:100%;
+    margin: 1em;
+}
+article img{
+    width: 100%;
+    height: auto;
 }
 
 .container{
@@ -66,5 +80,9 @@ article{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
+}
+
+#contenu{
+    margin-top: 1em;
 }
 
