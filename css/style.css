@@ -1,9 +1,9 @@
-#logo_site {
+.logo_site {
   width: auto;
   height: 40px;
 }
 
-#logo_bit {
+.logo_bit {
   width: 16px;
   height: 16px;
   filter: grayscale(1);
