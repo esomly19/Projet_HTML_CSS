@@ -48,7 +48,7 @@ $textcolor:orange;
 }
 
 .navbar ul{
-    list-style: none;
+    
 }
 
 .navbar li{
@@ -86,3 +86,34 @@ article img{
     margin-top: 1em;
 }
 
+li:nth-child(1){
+    list-style-image: url("../logo/signature.png");
+
+   
+   
+}
+
+li:nth-child(2){
+    list-style-image: url("../logo/folder.png");
+   
+   
+}
+
+li:nth-child(8){
+    list-style-image:  url("../logo/user.png");
+   
+   
+}
+li:nth-child(12){
+    list-style-image:url("../logo/magnifying-glass.png");
+   
+   
+}
+li:nth-child(13){
+    list-style-image:  url("../logo/icon.png");
+   
+   
+}
+ul {
+    list-style: none;
+  }
