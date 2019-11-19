@@ -1,3 +1,5 @@
+@import "_grille.scss";
+
 $border-color : #aaa;
 $textcolor:orange;
 
@@ -74,12 +76,16 @@ article img{
     height: auto;
 }
 
+// .container{
+//     justify-content: space-around;
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-gap: 10px;
+//     grid-auto-rows: minmax(100px, auto);
+// }
 .container{
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+   @include container(2);
+   @include placement_xs();
 }
 
 #contenu{

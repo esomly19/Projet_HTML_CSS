@@ -1,0 +1,62 @@
+@mixin container($nb_col) {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat($nb_col, 1fr);
+  }
+  
+  @mixin placement_xs {
+    :nth-child(1){
+      grid-column: span 2;
+    }
+    :nth-child(2){
+      grid-column: span 2;
+    }
+    :nth-child(3){
+      grid-column: span 2;
+    }
+    :nth-child(4){
+      grid-column: span 2;
+    }
+    :nth-child(5){
+      grid-column: span 1;
+    }
+    :nth-child(6){
+      grid-column: span 1;
+    }
+    :nth-child(7){
+      grid-column: span 1;
+    }
+    :nth-child(8){
+      grid-column: span 2;
+    }
+    :nth-child(9){
+      grid-column: span 2;
+    }
+    :nth-child(10){
+      grid-column: span 2;
+    }
+    :nth-child(11){
+      grid-column: span 2;
+    }
+  }
+
+  @mixin placement_s {
+
+  }
+
+  @mixin placement_m {
+
+  }
+    
+  @mixin placement_l {
+
+  }
+  
+
+  @mixin placement_xl {
+
+  }
+
+  
+
+
