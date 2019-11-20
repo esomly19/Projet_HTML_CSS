@@ -72,6 +72,8 @@ article img {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
+  margin-left: 0;
+  width: 98%;
 }
 .container :nth-child(1) {
   grid-column: span 2;
@@ -135,6 +137,55 @@ ul {
   list-style: none;
 }
 
+@media screen and (min-width: 376px) and (max-width: 640px) {
+  .container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .container :nth-child(1) {
+    grid-column: span 2;
+  }
+  .container :nth-child(2) {
+    grid-column: span 2;
+  }
+  .container :nth-child(3) {
+    grid-column: span 2;
+  }
+  .container :nth-child(4) {
+    grid-column: span 2;
+  }
+  .container :nth-child(5) {
+    grid-column: span 1;
+  }
+  .container :nth-child(6) {
+    grid-column: span 1;
+  }
+  .container :nth-child(7) {
+    grid-column: span 1;
+  }
+  .container :nth-child(8) {
+    grid-column: span 2;
+  }
+  .container :nth-child(9) {
+    grid-column: span 2;
+  }
+  .container :nth-child(10) {
+    grid-column: span 2;
+  }
+  .container :nth-child(11) {
+    grid-column: span 2;
+  }
+  .container :nth-child(1) {
+    grid-column: span 1;
+  }
+  .container :nth-child(4) {
+    grid-column: span 1;
+  }
+  .container :nth-child(5) {
+    grid-column: span 2;
+  }
+}
 #article1 {
   transform: rotate(-1.5deg);
 }
