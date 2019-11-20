@@ -186,5 +186,44 @@ ul {
     grid-column: span 2;
   }
 }
+#article1 {
+  transform: rotate(-1.5deg);
+}
+
+#article2 {
+  transform: rotate(1.5deg);
+}
+
+#article3 {
+  transform: rotate(-1.5deg);
+}
+
+#article4 {
+  transform: rotate(0.7deg);
+}
+
+#article5 {
+  transform: rotate(-0.7deg);
+}
+
+#article6 {
+  transform: rotate(0.7deg);
+}
+
+#article7 {
+  transform: rotate(-1.5deg);
+}
+
+#article8 {
+  transform: rotate(1.5deg);
+}
+
+#article9 {
+  transform: rotate(-1.5deg);
+}
+
+#article10 {
+  transform: rotate(-1.2deg);
+}
 
 /*# sourceMappingURL=style.css.map */

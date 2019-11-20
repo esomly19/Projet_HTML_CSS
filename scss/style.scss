@@ -1,4 +1,5 @@
 @import "_grille.scss";
+@import "rotation.scss";
 
 $border-color : #aaa;
 $textcolor:orange;
@@ -132,4 +133,37 @@ ul {
         @include container(3);
         @include placement_s();
     }
+}
+
+
+#article1{
+    @include rotate(-1.5deg); 
+}
+#article2{
+    @include rotate(1.5deg); 
+}
+#article3{
+    @include rotate(-1.5deg); 
+}
+#article4{
+    @include rotate(0.7deg); 
+}
+#article5{
+    @include rotate(-0.7deg); 
+}
+#article6{
+    @include rotate(0.7deg); 
+}
+
+#article7{
+    @include rotate(-1.5deg); 
+}
+#article8{
+    @include rotate(1.5deg); 
+}
+#article9{
+    @include rotate(-1.5deg); 
+}
+#article10{
+    @include rotate(-1.2deg); 
 }
