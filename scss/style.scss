@@ -114,6 +114,26 @@ ul {
     list-style: none;
 }
 
+.pertinence {
+    position: absolute;
+  top: 8px;
+  left: 16px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    font-size:0.6em;
+
+   
+}
+.next {
+    background-color: white;
+    color: black;
+     border-radius: 15%;
+     border: 2px solid black;
+     float: right;
+     padding : 0.3em;
+     font-size:1em;
+  }
+
 // format xs
 .container{
     @include container(2);
@@ -177,6 +197,12 @@ ul {
     #article2{
         @include rotate(0.2deg); 
     }
+    .pertinence {
+        font-size:0.7em;       
+    }
+    .next {
+        font-size:1em;
+    }
 }
 
 //format l
@@ -185,12 +211,29 @@ ul {
         @include container(5);
         @include placement_l();
     }
+    .pertinence {
+        font-size:0.7em;       
+    }
+    .next {
+        font-size:1.5em;
+    }
 }
-//format l
+//format el
 @media screen and (min-width:1001px){
     .container{
         @include container(6);
         @include placement_el();
+    }
+     .pertinence {
+        font-size:0.7em;       
+    }
+    .next {
+        font-size:1.5em;
+    }
+
+    .reseau{
+        background-color: black;
+        float: right;
     }
 }
 
@@ -202,20 +245,5 @@ hr {
     float:left;
   }
 
-  .pertinence {
-    position: absolute;
-  top: 8px;
-  left: 16px;
-    color:white;
-    text-shadow: 2px 2px 2px black;
-   
-}
-.next {
-    background-color: white;
-    color: black;
-     border-radius: 15%;
-     border: 2px solid black;
-     float: right;
-     font-size:2em;
-  }
+
   
