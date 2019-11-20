@@ -54,16 +54,38 @@
   }
 
   @mixin placement_m {
+    @include placement_xs();
+    :nth-child(1){
+      grid-column: span 1;
+    }
+    :nth-child(3){
+      grid-column: span 1;
+    }
+    :nth-child(5){
+      grid-column: span 2;
+    }
 
   }
     
   @mixin placement_l {
-
+    @include placement_xs();
+    :nth-child(1){
+      grid-column: span 1;
+    }
   }
   
 
-  @mixin placement_xl {
-
+  @mixin placement_el {
+    @include placement_xs();
+    :nth-child(1){
+      grid-column: span 1;
+    }
+    :nth-child(4){
+      grid-column: span 1;
+    }
+    :nth-child(5){
+      grid-column: span 2;
+    }
   }
 
   
