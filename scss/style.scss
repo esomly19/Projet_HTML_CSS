@@ -21,14 +21,13 @@ $textcolor:orange;
 
 .menu{
     width: 100%;
-    display: flex;
+    display: inline-flex;
     border-right : solid 0.5px $border-color;
     border-bottom : solid 0.5px $border-color;
     border-radius: 1px;
     box-shadow: 8px 8px 12px #aaa;
     flex-direction:column;
-    justify-content: flex-start;
-    align-items: flex-start;
+   
 }
 
 .logo{
@@ -39,7 +38,7 @@ $textcolor:orange;
 .reseau{
     display: inline-flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items:  flex-end;
 }
 
 .menu h1{
@@ -231,10 +230,7 @@ ul {
         font-size:1.5em;
     }
 
-    .reseau{
-        background-color: black;
-        float: right;
-    }
+   
 }
 
 
